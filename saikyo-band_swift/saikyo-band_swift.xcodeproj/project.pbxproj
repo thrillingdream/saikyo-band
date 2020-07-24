@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50041FA724C9B297006EFA31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50041FA624C9B297006EFA31 /* AppDelegate.swift */; };
+		50041FA924C9B297006EFA31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50041FA824C9B297006EFA31 /* ContentView.swift */; };
+		50041FAB24C9B298006EFA31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50041FAA24C9B298006EFA31 /* Assets.xcassets */; };
+		50041FAE24C9B298006EFA31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50041FAD24C9B298006EFA31 /* Preview Assets.xcassets */; };
+		50041FB124C9B298006EFA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50041FAF24C9B298006EFA31 /* Main.storyboard */; };
+		50041FBD24C9B299006EFA31 /* saikyo_band_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50041FBC24C9B299006EFA31 /* saikyo_band_swiftTests.swift */; };
+		50041FC824C9B299006EFA31 /* saikyo_band_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50041FC724C9B299006EFA31 /* saikyo_band_swiftUITests.swift */; };
+		50041FD624C9B51A006EFA31 /* PlayerListeningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50041FD524C9B51A006EFA31 /* PlayerListeningService.swift */; };
+		50041FDA24C9CB57006EFA31 /* TextEditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50041FD924C9CB57006EFA31 /* TextEditService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50041FB924C9B299006EFA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50041F9B24C9B297006EFA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50041FA224C9B297006EFA31;
+			remoteInfo = "saikyo-band_swift";
+		};
+		50041FC424C9B299006EFA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50041F9B24C9B297006EFA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50041FA224C9B297006EFA31;
+			remoteInfo = "saikyo-band_swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50041FA324C9B297006EFA31 /* saikyo-band_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saikyo-band_swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50041FA624C9B297006EFA31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50041FA824C9B297006EFA31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50041FAA24C9B298006EFA31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50041FAD24C9B298006EFA31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50041FB024C9B298006EFA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50041FB224C9B298006EFA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50041FB324C9B298006EFA31 /* saikyo_band_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = saikyo_band_swift.entitlements; sourceTree = "<group>"; };
+		50041FB824C9B299006EFA31 /* saikyo-band_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saikyo-band_swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50041FBC24C9B299006EFA31 /* saikyo_band_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saikyo_band_swiftTests.swift; sourceTree = "<group>"; };
+		50041FBE24C9B299006EFA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50041FC324C9B299006EFA31 /* saikyo-band_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saikyo-band_swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50041FC724C9B299006EFA31 /* saikyo_band_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saikyo_band_swiftUITests.swift; sourceTree = "<group>"; };
+		50041FC924C9B299006EFA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50041FD524C9B51A006EFA31 /* PlayerListeningService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListeningService.swift; sourceTree = "<group>"; };
+		50041FD924C9CB57006EFA31 /* TextEditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50041FA024C9B297006EFA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041FB524C9B299006EFA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041FC024C9B299006EFA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50041F9A24C9B297006EFA31 = {
+			isa = PBXGroup;
+			children = (
+				50041FA524C9B297006EFA31 /* saikyo-band_swift */,
+				50041FBB24C9B299006EFA31 /* saikyo-band_swiftTests */,
+				50041FC624C9B299006EFA31 /* saikyo-band_swiftUITests */,
+				50041FA424C9B297006EFA31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50041FA424C9B297006EFA31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50041FA324C9B297006EFA31 /* saikyo-band_swift.app */,
+				50041FB824C9B299006EFA31 /* saikyo-band_swiftTests.xctest */,
+				50041FC324C9B299006EFA31 /* saikyo-band_swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50041FA524C9B297006EFA31 /* saikyo-band_swift */ = {
+			isa = PBXGroup;
+			children = (
+				50041FA624C9B297006EFA31 /* AppDelegate.swift */,
+				50041FA824C9B297006EFA31 /* ContentView.swift */,
+				50041FAA24C9B298006EFA31 /* Assets.xcassets */,
+				50041FAF24C9B298006EFA31 /* Main.storyboard */,
+				50041FB224C9B298006EFA31 /* Info.plist */,
+				50041FB324C9B298006EFA31 /* saikyo_band_swift.entitlements */,
+				50041FAC24C9B298006EFA31 /* Preview Content */,
+				50041FD524C9B51A006EFA31 /* PlayerListeningService.swift */,
+				50041FD924C9CB57006EFA31 /* TextEditService.swift */,
+			);
+			path = "saikyo-band_swift";
+			sourceTree = "<group>";
+		};
+		50041FAC24C9B298006EFA31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50041FAD24C9B298006EFA31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50041FBB24C9B299006EFA31 /* saikyo-band_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				50041FBC24C9B299006EFA31 /* saikyo_band_swiftTests.swift */,
+				50041FBE24C9B299006EFA31 /* Info.plist */,
+			);
+			path = "saikyo-band_swiftTests";
+			sourceTree = "<group>";
+		};
+		50041FC624C9B299006EFA31 /* saikyo-band_swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50041FC724C9B299006EFA31 /* saikyo_band_swiftUITests.swift */,
+				50041FC924C9B299006EFA31 /* Info.plist */,
+			);
+			path = "saikyo-band_swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50041FA224C9B297006EFA31 /* saikyo-band_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50041FCC24C9B299006EFA31 /* Build configuration list for PBXNativeTarget "saikyo-band_swift" */;
+			buildPhases = (
+				50041F9F24C9B297006EFA31 /* Sources */,
+				50041FA024C9B297006EFA31 /* Frameworks */,
+				50041FA124C9B297006EFA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "saikyo-band_swift";
+			productName = "saikyo-band_swift";
+			productReference = 50041FA324C9B297006EFA31 /* saikyo-band_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50041FB724C9B299006EFA31 /* saikyo-band_swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50041FCF24C9B299006EFA31 /* Build configuration list for PBXNativeTarget "saikyo-band_swiftTests" */;
+			buildPhases = (
+				50041FB424C9B299006EFA31 /* Sources */,
+				50041FB524C9B299006EFA31 /* Frameworks */,
+				50041FB624C9B299006EFA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50041FBA24C9B299006EFA31 /* PBXTargetDependency */,
+			);
+			name = "saikyo-band_swiftTests";
+			productName = "saikyo-band_swiftTests";
+			productReference = 50041FB824C9B299006EFA31 /* saikyo-band_swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50041FC224C9B299006EFA31 /* saikyo-band_swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50041FD224C9B299006EFA31 /* Build configuration list for PBXNativeTarget "saikyo-band_swiftUITests" */;
+			buildPhases = (
+				50041FBF24C9B299006EFA31 /* Sources */,
+				50041FC024C9B299006EFA31 /* Frameworks */,
+				50041FC124C9B299006EFA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50041FC524C9B299006EFA31 /* PBXTargetDependency */,
+			);
+			name = "saikyo-band_swiftUITests";
+			productName = "saikyo-band_swiftUITests";
+			productReference = 50041FC324C9B299006EFA31 /* saikyo-band_swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50041F9B24C9B297006EFA31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = I.Noro;
+				TargetAttributes = {
+					50041FA224C9B297006EFA31 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					50041FB724C9B299006EFA31 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 50041FA224C9B297006EFA31;
+					};
+					50041FC224C9B299006EFA31 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 50041FA224C9B297006EFA31;
+					};
+				};
+			};
+			buildConfigurationList = 50041F9E24C9B297006EFA31 /* Build configuration list for PBXProject "saikyo-band_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50041F9A24C9B297006EFA31;
+			productRefGroup = 50041FA424C9B297006EFA31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50041FA224C9B297006EFA31 /* saikyo-band_swift */,
+				50041FB724C9B299006EFA31 /* saikyo-band_swiftTests */,
+				50041FC224C9B299006EFA31 /* saikyo-band_swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50041FA124C9B297006EFA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50041FB124C9B298006EFA31 /* Main.storyboard in Resources */,
+				50041FAE24C9B298006EFA31 /* Preview Assets.xcassets in Resources */,
+				50041FAB24C9B298006EFA31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041FB624C9B299006EFA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041FC124C9B299006EFA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50041F9F24C9B297006EFA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50041FDA24C9CB57006EFA31 /* TextEditService.swift in Sources */,
+				50041FD624C9B51A006EFA31 /* PlayerListeningService.swift in Sources */,
+				50041FA924C9B297006EFA31 /* ContentView.swift in Sources */,
+				50041FA724C9B297006EFA31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041FB424C9B299006EFA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50041FBD24C9B299006EFA31 /* saikyo_band_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50041FBF24C9B299006EFA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50041FC824C9B299006EFA31 /* saikyo_band_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50041FBA24C9B299006EFA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50041FA224C9B297006EFA31 /* saikyo-band_swift */;
+			targetProxy = 50041FB924C9B299006EFA31 /* PBXContainerItemProxy */;
+		};
+		50041FC524C9B299006EFA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50041FA224C9B297006EFA31 /* saikyo-band_swift */;
+			targetProxy = 50041FC424C9B299006EFA31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50041FAF24C9B298006EFA31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50041FB024C9B298006EFA31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50041FCA24C9B299006EFA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50041FCB24C9B299006EFA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		50041FCD24C9B299006EFA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "saikyo-band_swift/saikyo_band_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"saikyo-band_swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "saikyo-band_swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "thrillingdream.saikyo-band-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		50041FCE24C9B299006EFA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "saikyo-band_swift/saikyo_band_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"saikyo-band_swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "saikyo-band_swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "thrillingdream.saikyo-band-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		50041FD024C9B299006EFA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "saikyo-band_swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "thrillingdream.saikyo-band-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saikyo-band_swift.app/Contents/MacOS/saikyo-band_swift";
+			};
+			name = Debug;
+		};
+		50041FD124C9B299006EFA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "saikyo-band_swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "thrillingdream.saikyo-band-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saikyo-band_swift.app/Contents/MacOS/saikyo-band_swift";
+			};
+			name = Release;
+		};
+		50041FD324C9B299006EFA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "saikyo-band_swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thrillingdream.saikyo-band-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "saikyo-band_swift";
+			};
+			name = Debug;
+		};
+		50041FD424C9B299006EFA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "saikyo-band_swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thrillingdream.saikyo-band-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "saikyo-band_swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50041F9E24C9B297006EFA31 /* Build configuration list for PBXProject "saikyo-band_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50041FCA24C9B299006EFA31 /* Debug */,
+				50041FCB24C9B299006EFA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50041FCC24C9B299006EFA31 /* Build configuration list for PBXNativeTarget "saikyo-band_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50041FCD24C9B299006EFA31 /* Debug */,
+				50041FCE24C9B299006EFA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50041FCF24C9B299006EFA31 /* Build configuration list for PBXNativeTarget "saikyo-band_swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50041FD024C9B299006EFA31 /* Debug */,
+				50041FD124C9B299006EFA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50041FD224C9B299006EFA31 /* Build configuration list for PBXNativeTarget "saikyo-band_swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50041FD324C9B299006EFA31 /* Debug */,
+				50041FD424C9B299006EFA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50041F9B24C9B297006EFA31 /* Project object */;
+}
