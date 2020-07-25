@@ -15,5 +15,4 @@ macOS Catalina 10.15.6
 2. ハッシュタグをつけて最強のバンドランキングとかができれば...
 
 # sample
-![sample]
-(https://github.com/thrillingdream/saikyo-band/blob/master/screenshot.png)
+![sample](https://github.com/thrillingdream/saikyo-band/blob/images/screenshot.png)
