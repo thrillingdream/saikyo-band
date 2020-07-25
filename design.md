@@ -13,11 +13,6 @@
   * Twitterのアカウントの事前登録をする
   * 曲がApple Musicで見つからなかったときにはURLを張らないでツイート
 
-## 開発方針
-1.最初はTwitterアカウントベタ打ちで作る
-
-2.Twitterへの連携をさせる（どうやるのかはまた後で）
-
 ## 言語
 * iThunesAPIとかいっぱい使うのでswiftでやりましょう
 
@@ -37,4 +32,17 @@ https://qiita.com/ayasuda/items/3773858e5e93ba94da48
 
 Twitterへの連携のやつ
 https://qiita.com/kumamotone/items/c1fe3dd5718d29cc94d0
+
+swiftでパイプとか標準入力を扱うやつ
+https://qiita.com/masakihori/items/a85d1667b0af86d6f6e7
+
+JSON系
+https://qiita.com/satoshi-iwaki/items/708fac8f24ec26068455
+
+URLの使い方
+https://qiita.com/shiz/items/09523baf7d1cd37f6dee
+
+iThunes APIの使い方
+https://qiita.com/kenchan1837/items/a9e1de18c7eab75c4145
+
 
