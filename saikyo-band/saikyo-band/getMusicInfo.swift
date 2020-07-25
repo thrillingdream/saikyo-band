@@ -67,12 +67,11 @@ class MusicInfo {
 
             if response.statusCode == 200 {
                 let items = try! JSONSerialization.jsonObject(with: data) as! Dictionary<String, Any>
-                let result = items["results"] as! NSArray
-                print(result.value(forKey: "trackViewUrl"))
-                let trackUrlNSArray = result.value(forKey: "trackViewUrl")as! NSArray
+                let result = items["results"] as! NSArray //JSONから結果の部分を取り出す。JSONの中を見るとわかる。
+                let trackUrlNSArray = result.value(forKey: "trackViewUrl")as! NSArray //楽曲のURL情報
                 let trackUrlArray = trackUrlNSArray as NSArray as? [String] ?? [""]
                 
-                print(result.dictionaryWithValues(forKeys: ["trackViewUrl"]))
+                //iTunesの検索ロジックで出た結果の一番最初の要素を取り出す（たまにミスる）
                 trackUrl = trackUrlArray.first ?? ""
             } else {
                 trackUrl = "server error: \(response.statusCode)"
@@ -81,6 +80,7 @@ class MusicInfo {
         }
         task.resume()
         
+        //Console appなのでsleepを入れないとThreadが処理を終わる前に抜けてしまう
         sleep(1)
 
         return(trackUrl)

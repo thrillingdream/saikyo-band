@@ -33,8 +33,8 @@ https://qiita.com/ayasuda/items/3773858e5e93ba94da48
 Twitterへの連携のやつ
 https://qiita.com/kumamotone/items/c1fe3dd5718d29cc94d0
 
-swiftでパイプとか標準入力を扱うやつ
-https://qiita.com/masakihori/items/a85d1667b0af86d6f6e7
+swiftでAppleScriptを使うやつ
+https://qiita.com/Eiryyy/items/4925e7d420519814176a
 
 JSON系
 https://qiita.com/satoshi-iwaki/items/708fac8f24ec26068455
