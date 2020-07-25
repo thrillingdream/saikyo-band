@@ -13,3 +13,7 @@ macOS Catalina 10.15.6
 # 制約及び今後のUpdateなど
 1. URLの検索はなかなかにアホです。聞いているの曲ではない可能性があります。直したい。
 2. ハッシュタグをつけて最強のバンドランキングとかができれば...
+
+# sample
+![sample]
+(https://github.com/thrillingdream/saikyo-band/blob/master/screenshot.png)
