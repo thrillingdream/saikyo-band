@@ -73,7 +73,7 @@ class MusicInfo {
                 let trackUrlArray = trackUrlNSArray as NSArray as? [String] ?? [""]
                 
                 print(result.dictionaryWithValues(forKeys: ["trackViewUrl"]))
-                trackUrl = trackUrlArray.last ?? ""
+                trackUrl = trackUrlArray.first ?? ""
             } else {
                 trackUrl = "server error: \(response.statusCode)"
             }
